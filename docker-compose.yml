@@ -1,0 +1,10 @@
+version: '3'
+services:
+  pi-test:
+    build: .
+    command: nodemon -L --inspect=0.0.0.0:5858
+    volumes:
+      - '.:/usr/src/app'
+    ports:
+      - '8080:8080'
+      - '5858:5858'
