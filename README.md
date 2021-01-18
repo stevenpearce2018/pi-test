@@ -99,8 +99,7 @@ Uninstall steps:
 * Steven Pearce
 
 
-## License
+## Future/Prod setup
 
--
-## Acknowledgments
--
+[ ] Email or SMS or Azure/AWS logging support on error
+[ ] .env setup, simple app so no need
